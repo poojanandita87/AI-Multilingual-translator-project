@@ -1,0 +1,33 @@
+# Query: localhost:5000
+# ContextLines: 1
+
+6 results - 5 files
+
+frontend\js\app.js:
+  13    try {
+  14:     const response = await fetch('http://ai-multilingual-translator-env.eba-hmwajmzv.eu-north-1.elasticbeanstalk.com/api/translate', { // ⚠️ confirm this matches your server.js mount path
+  15        method: 'POST',
+
+frontend\js\history.js:
+   6  
+   7: `http://ai-multilingual-translator-env.eba-hmwajmzv.eu-north-1.elasticbeanstalk.com/api/history/${userId}`
+   8  
+
+  46  
+  47: `http://ai-multilingual-translator-env.eba-hmwajmzv.eu-north-1.elasticbeanstalk.com/api/history/${id}`,
+  48  
+
+frontend\js\login.js:
+  10  
+  11: const response = await fetch("http://ai-multilingual-translator-env.eba-hmwajmzv.eu-north-1.elasticbeanstalk.com/api/auth/login",{
+  12  
+
+frontend\js\signup.js:
+  12  
+  13: const response=await fetch("http://ai-multilingual-translator-env.eba-hmwajmzv.eu-north-1.elasticbeanstalk.com/api/auth/signup",{
+  14  
+
+frontend\js\translator.js:
+  24    try {
+  25:     const response = await fetch('http://ai-multilingual-translator-env.eba-hmwajmzv.eu-north-1.elasticbeanstalk.com/api/translate', {
+  26        method: 'POST',

@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const translate = require("google-translate-api-x");
-const translation = require("../models/translation");
+const Translation = require("../models/Translation");
 
 // Map full language names to Google Translate language codes
 const languageCodes = {

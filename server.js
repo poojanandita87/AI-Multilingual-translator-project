@@ -30,7 +30,7 @@ app.use("/api/history", historyRoutes);
 
 // Default route
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname,"..", "index.html"));
+    res.send("AI Multilingual Translator Backend is Running 🚀");
 });
 
 const PORT = process.env.PORT || 5000;
